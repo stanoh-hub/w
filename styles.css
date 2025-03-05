@@ -1,0 +1,185 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #003147;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    background: #022c43;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #e11b4c;
+}
+
+/* Authentication Forms */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.form-box {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+.auth-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.auth-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.auth-form .btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background: #e11b4c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.auth-form .btn:hover {
+    background: #b40f64;
+}
+
+.register-link {
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #003147;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.register-link:hover {
+    color: #e11b4c;
+}
+
+/* Homepage Styling */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #022c43, #004d7a);
+    color: white;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background: #e11b4c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.hero .btn:hover {
+    background: #b40f64;
+}
+
+.features {
+    padding: 40px 20px;
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.feature {
+    background: #c9dadb;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #b2daed;
+    color: #003147;
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: bold;
+    border-top: 3px solid #003147;
+}
+
+/* Fix navigation links */
+nav ul li a[href='homepage.html'] {
+    cursor: pointer;
+}

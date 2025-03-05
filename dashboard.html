@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Vehicle Diagnostic System</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to main CSS file -->
+    <style>
+        .dashboard-container {
+            text-align: center;
+            padding: 20px;
+        }
+        .dashboard-widgets {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .widget {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vehicle Diagnostic Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="diagnostics.html">Diagnostics</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="logout.php">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="dashboard-container">
+        <h2>Welcome, User!</h2>
+        <div class="dashboard-widgets">
+            <div class="widget">
+                <h3>Vehicle Status</h3>
+                <p>No issues detected.</p>
+            </div>
+            <div class="widget">
+                <h3>Recent Diagnostics</h3>
+                <ul>
+                    <li>Check Engine Light - No Issues</li>
+                    <li>Battery Health - Good</li>
+                    <li>Brake System - Requires Maintenance</li>
+                </ul>
+            </div>
+            <div class="widget">
+                <h3>Upcoming Maintenance</h3>
+                <p>Oil Change - Due in 500km</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Vehicle Diagnostic System. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Vehicle Diagnostic System</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to main CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Vehicle Diagnostic System</h1>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="diagnostics.html">Diagnostics</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="auth-container" style="height: 100vh; display: flex; align-items: center;">
+        <div class="form-box" style="padding: 20px; max-width: 350px;">
+            <h2>Create an Account</h2>
+            <form action="register.php" method="POST" class="auth-form">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <label for="confirm_password">Confirm Password:</label>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+                
+                <button type="submit" class="btn">Register</button>
+            </form>
+            <p>Already have an account? <a href="login.html" class="register-link">Login here</a></p>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Vehicle Diagnostic System. All rights reserved.</p>
+    </footer>
+</body>
+</html>

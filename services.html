@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services & Contact - Vehicle Diagnostic System</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to main CSS file -->
+    <style>
+        body {
+            background: #f4f7f6;
+            font-family: 'Poppins', sans-serif;
+        }
+        .services-container, .contact-container {
+            text-align: center;
+            padding: 30px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            margin: 20px auto;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .services-container:hover, .contact-container:hover {
+            transform: scale(1.02);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+        .services-container h2, .contact-container h2 {
+            color: #e11b4c;
+        }
+        .services-container ul, .contact-container ul {
+            list-style: none;
+            padding: 0;
+        }
+        .services-container li, .contact-container li {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .contact-container a {
+            color: #003147;
+            font-weight: bold;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .contact-container a:hover {
+            color: #e11b4c;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Services & Contact</h1>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="diagnostics.html">Diagnostics</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="logout.php">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="services-container">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Real-time vehicle diagnostics</li>
+            <li>Engine health monitoring</li>
+            <li>Battery and brake system analysis</li>
+            <li>Preventive maintenance alerts</li>
+            <li>Expert repair guidance</li>
+        </ul>
+    </section>
+    
+    <section class="contact-container">
+        <h2>Contact Us</h2>
+        <p>For inquiries and support, reach out to us:</p>
+        <ul>
+            <li><strong>Phone:</strong> <a href="tel:+254710933272">0710933272</a></li>
+            <li><strong>WhatsApp:</strong> <a href="https://wa.me/254710933272" target="_blank">Chat with us</a></li>
+            <li><strong>Email:</strong> <a href="mailto:wawerusilvester5@gmail.com">wawerusilvester5@gmail.com</a></li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Vehicle Diagnostic System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
